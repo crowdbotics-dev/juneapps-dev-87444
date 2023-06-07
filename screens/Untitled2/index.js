@@ -1,3 +1,4 @@
+import { ActivityIndicator } from "react-native";
 import { TextInput } from "react-native";
 import { Text } from "react-native";
 import React from "react";
@@ -10,7 +11,7 @@ const Untitled2 = () => {
       padding: 10,
       position: 'relative',
       flex: 1
-    }}><Text style={styles.LPBicjdw}>{"Testing World Ravi"}</Text><TextInput style={styles.JKVPWeOx} value="testing world"></TextInput></ScrollView>
+    }}><Text style={styles.LPBicjdw}>{"Testing World Ravi"}</Text><TextInput style={styles.JKVPWeOx} value="testing world test"></TextInput><ActivityIndicator style={styles.twvWKTAW}></ActivityIndicator></ScrollView>
     </SafeAreaView>;
 };
 
@@ -35,6 +36,10 @@ const styles = StyleSheet.create({
     borderColor: "#cccccc",
     width: 150,
     height: 30
+  },
+  twvWKTAW: {
+    width: 50,
+    height: 50
   }
 });
 export default Untitled2;
