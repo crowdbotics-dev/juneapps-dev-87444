@@ -1,14 +1,14 @@
-import React from 'react';
-import { View, StyleSheet } from 'react-native';
+import React from "react";
+import { View, StyleSheet } from "react-native";
 
-const RedScreen = () => {
+const BlackScreen = () => {
   return <View style={styles.container}></View>;
 };
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: 'red'
+    backgroundColor: "black"
   }
 });
-export default RedScreen;
+export default BlackScreen;
